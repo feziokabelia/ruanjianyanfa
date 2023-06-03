@@ -1,4 +1,4 @@
-## 实验二 Jupyter Notebook实践 
+## 实验三 Jupyter Notebook实践 
 ### 实验内容
 安装Jupyter Notebook和相关的Python环境，建议采用Anaconda的安装方式。  
 1. 按照教程完成实验过程，主要包括几个方面：  
@@ -29,7 +29,7 @@ y = square(x)
 print('%d squared is %d' % (x, y))
 ```  
 执行效果：  
-![](pic/屏幕截图%202023-05-05%20005515.png.png)  
+![](pic/05.png)  
 
 #### 修改默认目录
 
@@ -37,14 +37,13 @@ print('%d squared is %d' % (x, y))
   
 #### vscode中配置jupyter notebook
 在cell中运行python代码
-![](pic/屏幕截图 2023-05-06 122931.png)
-![](pic/屏幕截图 2023-05-06 122931.png)  
+![](pic/061.png) 
 
 ### 2、熟悉基本的Python语法
 
 #### 输出结果
 
-![](pic/屏幕截图 2023-05-06 023216.png)
+![](pic/06.png)
 
 ### 3、数据分析  
 本例中将分析历年财富世界500强的数据(1955-2005)
@@ -474,20 +473,3 @@ fig.tight_layout()
 
 
 可见，不同公司之间的收入和利润差距惊人，那么到底前10%和后10%的公司谁的波动更大了？此外，还有很多有价值的信息值得进一步挖掘。
-
-
-
-
-### 4、分享Notebooks
-#### 分享之前的工作
-分享的Notebooks应包括代码执行的输出，要保证执行的结果符合预期，需完成以下几件事：  
-
-1. 点击"Cell > All Output > Clear"
-2. 点击"Kernel > Restart & Run All"
-3. 等待所有代码执行完毕
-这样做的目的使得Notebook不含有中间的执行结果，按照代码执行的顺序，产生稳定的结果。  
-#### 导出Notebooks
-使用"File > Download as"可以以多种格式导出Notebooks，例如：html, pdf, markdown文档等。如果希望以协同方式共享.ipynb，则可以借助相关的在线平台，如[Github](https://github.com/)或者[Google Colab](https://colab.research.google.com/)。
-
-### 参考教程
-[Jupyter Notebook基础教程](https://blog.csdn.net/llfjfz/article/details/124716714#Jupyter_Notebook_548)
