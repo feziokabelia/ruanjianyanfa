@@ -37,11 +37,13 @@ print('%d squared is %d' % (x, y))
   
 #### vscode中配置jupyter notebook
 在cell中运行python代码
+![](pic/屏幕截图 2023-05-06 122931.png)
 ![](pic/屏幕截图 2023-05-06 122931.png)  
 
 ### 2、熟悉基本的Python语法
 
 #### 输出结果
+
 ![](pic/屏幕截图 2023-05-06 023216.png)
 
 ### 3、数据分析  
@@ -467,7 +469,7 @@ fig.tight_layout()
 
 
     
-![png](/pic/output_26_0.png)
+![png](pic/output_26_0.png)
     
 
 
